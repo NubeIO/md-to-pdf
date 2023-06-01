@@ -4,6 +4,7 @@ go 1.18
 
 require (
 	github.com/gin-gonic/gin v1.9.0
+	github.com/go-echarts/go-echarts/v2 v2.2.6
 	github.com/sirupsen/logrus v1.9.2
 	github.com/vicanso/go-charts/v2 v2.6.1
 )

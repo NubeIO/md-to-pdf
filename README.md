@@ -32,6 +32,7 @@ use need to convert a MD file to
 https://base64.guru/converter/encode/file
 
 
+### to send as base64
 
 - end point: `/convert`
 - POST
@@ -47,6 +48,26 @@ body
 }
 ```
 
+### to read a local file
+- end point: `/convert/local`
+- POST
+
+body
+```json
+{
+  "file": "/home/aidan/code/go/nube/md-to-pdf/README.md",
+  "write_to_home_dir":true
+}
+```
+
 found an example using templates
 
 https://github.com/gogap/go-pandoc
+
+
+## charts
+
+```
+github.com/vicanso/go-charts/v2
+```
+![test image](test.png)
